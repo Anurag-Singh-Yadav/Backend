@@ -17,6 +17,6 @@ app.listen(PORT,()=>{
 })
 
 app.get('/',(req, res)=>{
-    res.send('<h1>Anurag SIngh</h1>');
+    res.send('<h1>InterviewExpress</h1>');
 })
 
