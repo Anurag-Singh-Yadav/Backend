@@ -18,7 +18,7 @@ require('./config/database').dbConnect();
 // app.use('/interview-express' , )
 
 app.listen(PORT,()=>{
-    console.log('listening on port for IE',PORT);
+    console.log('listening on port for IR',PORT);
 })
 
 
