@@ -13,7 +13,7 @@ app.use(cookieParser());
 const BASE_URL = process.env.BASE_URL;
 const PORT = process.env.PORT || 7000;
 app.listen(PORT,()=>{
-    console.log('listening on port',PORT);
+    console.log('listening on port for IR',PORT);
 })
 
 app.get('/',(req, res)=>{
